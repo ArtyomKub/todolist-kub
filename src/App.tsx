@@ -3,10 +3,14 @@ import './App.css';
 import TodoList from './TodoList';
 
 function App() {
+    //BLL
+    const todoListTitle_1 = 'What to learn';
+    const todoListTitle_2 = 'What to buy';
+
     return (
         <div className="App">
-            <TodoList/>
-            <TodoList/>
+            <TodoList title={todoListTitle_1}/>
+            <TodoList title={todoListTitle_2}/>
         </div>
     );
 }
